@@ -45,7 +45,7 @@ public class Controlador {
 		return "redirect:/listar";
 	}
 	
-	
+	// cambio de ejemplo para nueva rama
 	@GetMapping("/editar/{id}")
 	public String editar(@PathVariable int id, Model model) {
 		Optional<Persona> persona= service.listarId(id);
